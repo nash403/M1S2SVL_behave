@@ -46,5 +46,26 @@ Feature: Create a user given a name and a surname
 
     Scenario: Plan B
         Given I am on the insertion page
-        When I insert a name shorter than 8 characters and a surname
+        When I insert a name and a surname
         Then I can see the new user with the generated login
+	
+	Scenario: Plan C
+        Given I am on the insertion page
+        When I insert a name and a surname
+        Then I can see the new user with the generated login
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
